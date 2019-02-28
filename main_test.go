@@ -17,7 +17,7 @@ func TestGetRandomQuote(t *testing.T) {
 
 	quote, err := getRandomQuote()
 	if err != nil {
-		t.Fatalf("Failed to get a random quote: %v", err)
+		t.Fatalf("Failed to get a random quote hahaha: %v", err)
 	}
 	for _, q := range quotes {
 		if q.(string) == quote {
